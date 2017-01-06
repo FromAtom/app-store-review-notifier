@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.7.0)
+    chronic (0.10.2)
+    redis (3.3.0)
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  redis
+  whenever
+
+RUBY VERSION
+   ruby 2.3.0p0
+
+BUNDLED WITH
+   1.13.4

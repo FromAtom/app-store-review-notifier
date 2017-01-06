@@ -1,0 +1,27 @@
+{
+  "name": "app-store-review-notifier",
+  "description": "App Store Review Notifier",
+  "keywords": [
+    "iOS",
+    "App Store",
+    "Review",
+    "Notifier"
+  ],
+  "repository": "https://github.com/FromAtom/app-store-review-notifier",
+  "env": {
+    "APP_STORE_RSS": {
+      "description": "iTunes connect RSS URL"
+    },
+    "SLACK_URL": {
+      "description": "Slack in-comming webhook endpoint."
+    },
+    "REDIS_KEY": {
+      "required": false,
+      "description": "Default 'latestID'"
+    }
+  },
+  "addons": [
+    "redistogo:nano",
+    "scheduler:standard"
+  ]
+}
